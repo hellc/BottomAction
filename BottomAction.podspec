@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc           = false
   s.ios.deployment_target  = '11.0'
-  s.tvos.deployment_target = '11.0'
 
   s.source                 = { :git => 'https://github.com/hellc/BottomAction.git', :tag => s.version }
 
